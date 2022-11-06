@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArrayExample/ArrayExample.iml" filepath="$PROJECT_DIR$/ArrayExample/ArrayExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOPBasic/JavaOOPBasic.iml" filepath="$PROJECT_DIR$/JavaOOPBasic/JavaOOPBasic.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringExamples/StringExamples.iml" filepath="$PROJECT_DIR$/StringExamples/StringExamples.iml" />
     </modules>
   </component>
