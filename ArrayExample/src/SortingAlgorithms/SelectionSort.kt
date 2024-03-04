@@ -15,7 +15,7 @@ fun main() {
 class SelectionSort {
 
     /**
-     * Int i = outerLoop index Int j = innerLoop index 
+     * Int i = outerLoop index Int j = innerLoop index
      * step1: traverse through array from i = 0 to size-1 and assign minIndex to i
      * step2: traverse  from j =i+1 to size-1 and if input[j] < input[minIndex] assign minIndex to j
      * step 3  if minIndex != i then swap element of input[i] with input[minIndex]
@@ -38,6 +38,7 @@ class SelectionSort {
     }
 
     /**
+     * Int i = outerLoop index Int j = innerLoop index
      * step1: traverse through array from i = 0 to size-1 and assign maxIndex to i
      * step2: traverse  from j =i+1 to size-1 and if input[j] > input[maxIndex] assign maxIndex to j
      * step3  if maxIndex != i then swap element of input[i] with input[maxIndex]
