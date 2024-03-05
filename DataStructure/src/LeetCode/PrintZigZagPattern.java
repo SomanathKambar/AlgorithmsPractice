@@ -1,7 +1,5 @@
 package LeetCode;
 
-import java.util.Arrays;
-
 public class PrintZigZagPattern {
     /**
      * Print the first row with 1 to N numbers.
@@ -24,7 +22,7 @@ public class PrintZigZagPattern {
         }
         System.out.println(Utils.ANSI_RESET);
         for(int i = 0 ; i<height; i++) {
-            System.out.print(Utils.ANSI_YELLOW +  + i +  Utils.ANSI_RESET);
+            System.out.print(Utils.ANSI_YELLOW + i +  Utils.ANSI_RESET);
             System.out.print("*");
             for(int j = 0; j< length; j++) {
                 if(j== 2* (height -1)) // j== 2* (height -1) -- condition to print start and end columns
