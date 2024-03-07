@@ -1,6 +1,4 @@
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class XLSheetColumNameArrangement {
@@ -27,7 +25,6 @@ public class XLSheetColumNameArrangement {
                     result = map.get(input[i]);
                     result = (result * 26);
                 } else {
-                    // res =0, 26+ (1*1) = 26+1 = 27
                     result = result + (map.get(input[i]));
                 }
             }
